@@ -1,33 +1,33 @@
-# Analyzing Sales and Profit Data - Tableau Superstore
+# Analyzing Hospital Admission Dashboard
+---
+v![Dashboard 2](https://github.com/user-attachments/assets/92cd80a4-016b-41ac-83ad-4b7d7abee566)
+
 
 ---
-
-![S & P Dashboard](https://github.com/user-attachments/assets/629b88a9-8749-4e87-ab4e-e64be5653001)
----
-[Click to view the dashboard](link-to-dashboard)
+[Click to view the dashboard](https://public.tableau.com/app/profile/yemisi.joshua/viz/HospitalAdmissionDashboard_17322294491740/Dashboard2?publish=yes)
 
 ## Project Overview
 
-This project focuses on analyzing the sales and profit data of Tableau's Superstore dataset, which contains information about a fictional retail company. The goal is to identify trends in sales and profitability across various product sub-categories providing insights into the store's performance and potential areas for improvement.
+This project focuses on analyzing the admission data of Tableau's Hospital dataset, which contains information about a hospital. The goal is to identify trends in admission across race, gender, top diagnosis providing insights into patients' admission and potential areas for patients' health and discharge.
 
 ---
 
 ## Objective(s)
 
 The key objectives of this analysis are:
-- To identify the yearly top-performing product categories and subcategories in terms of sales and profit.
-- To analyze profit margins across different subcategories.
-- To provide actionable insights for improving the store’s overall profitability.
+- To identify the yearly trend of admission between males and females.
+- To analyze the top 10 diagnosis on admission, average lenght of stay on admission.
+- To provide information on admission by race, age group and insurance coverage.
 
 ---
 
 ## Dataset(s)
 
-The **Tableau Superstore** dataset includes a variety of fields related to sales, customer information, and product performance:
+The **admission** dataset includes a variety of fields related to ethnicity, age, gender and insurance
 - **Source**: Public dataset provided by Tableau.
-- **Size**: ~10,000 transactions across different product categories, customer segments, and regions.
-- **Features**: Order ID, product name, category, sub-category, sales, profit, discount, shipping cost, customer name, region, and order date.
-
+- **Size**: ~5,700 admission across different age, gender and race.
+- **Features**: Admission time, Discharge time, Date of birth, Date of death, Gender, Ethnicity, insurance, admission id, subject id and insurance.
+- 
 The dataset was pre-cleaned and prepared in SQL, with minor data processing done in tableau for further analysis.
 
 ---
@@ -53,20 +53,9 @@ This project utilized the following tools and technologies:
 ## Results & Insights
 
 Key insights derived from the analysis:
-- **Top Categories**: Technology and Office Supplies were the most profitable categories, contributing the largest share of total sales.
-- **Trends**: Monthly sales generally trend upwards
-
----
-
-## Challenges
-
-The main challenge in this project was handling the impact of discounts on profit margins
-
----
-
-## Conclusion & Next Steps
-
-This analysis provided valuable insights into the performance of Tableau's Superstore dataset, highlighting key product categories, regions, and customer segments that contribute to overall profitability. 
+- **Admission Source**: The Admission source was from Emergency room contributing the highest number of patients across 10 years
+- **Trends**: Yearly admission trend between males and females is opposite to each other in 10 years
+- **Diagnosis**: The top diagnosis is Newborn as the higest then Pneumonia
 
 ## References
 
